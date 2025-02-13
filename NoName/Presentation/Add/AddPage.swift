@@ -8,8 +8,8 @@ struct AddPage: View {
     @State private var selectedDate = Date()
     @State private var selectedPaymentType: PaymentType = .convinience
     @State private var isLoading: Bool = false
-    @Binding var selectedTab: BottomBarSelectedTab
     @State private var isShowingDialog = false
+    @Binding var isPresented: Bool
     @State private var inputText = ""
     let generator = UIImpactFeedbackGenerator(style: .light)
     let numbers: [[String]] = [
@@ -70,7 +70,7 @@ struct AddPage: View {
                                     isLoading = true
                                     await addPageViewModel.saveRecord(title: (selectedPaymentType == .selfInput) ? inputText : selectedPaymentType.displayName, userId: user.id, selectedDate: selectedDate, price: Int(price) ?? 0)
                                     isLoading = false
-                                    selectedTab = .home
+                                    isPresented = false
                                 }
                             }
                         }

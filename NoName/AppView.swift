@@ -4,6 +4,7 @@ import HealthKit
 struct AppView: View {
     @EnvironmentObject var authViewModel: AuthViewModel
     @State var selectedTab:BottomBarSelectedTab = .home
+    @Binding var isPresented: Bool
     
     var body: some View {
         VStack {
@@ -11,8 +12,6 @@ struct AppView: View {
                 HomePage()
             } else if (selectedTab == .calendar) {
                 CalendarPage()
-            } else if (selectedTab == .add) {
-                AddPage(selectedTab: $selectedTab)
             } else if (selectedTab == .report) {
                 ReportPage()
             } else if (selectedTab == .setting) {
@@ -22,7 +21,7 @@ struct AppView: View {
             Spacer()
             
             // ボトムナビゲーションバー
-            BottomBar(selectedTab: $selectedTab)
+            BottomBar(selectedTab: $selectedTab, isPresented: $isPresented)
         }
     }
 }

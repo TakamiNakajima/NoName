@@ -4,7 +4,6 @@ import SwiftUI
 enum BottomBarSelectedTab: Int {
     case home = 0
     case calendar = 1
-    case add = 2
     case report = 3
     case setting = 4
     
@@ -18,7 +17,8 @@ struct BottomBar: View {
     let generator = UIImpactFeedbackGenerator(style: .light)
     @Environment(\.safeAreaInsets) var safeAreaInsets
     @Environment(\.colorScheme) var colorScheme
-    @Binding var selectedTab:BottomBarSelectedTab
+    @Binding var selectedTab: BottomBarSelectedTab
+    @Binding var isPresented: Bool
     
     var body: some View {
         HStack(spacing: 4){
@@ -42,7 +42,7 @@ struct BottomBar: View {
             // 追加
             Button {
                 generator.impactOccurred()
-                selectedTab = .add
+                isPresented = true
             } label: {
                 VStack {
                     ZStack {
@@ -50,7 +50,7 @@ struct BottomBar: View {
                             .frame(width: 60, height: 60)
                             .foregroundStyle(
                                 LinearGradient(
-                                    gradient: Gradient(colors: (selectedTab == .add) ? [.gray, .gray] : [Color("mainColorLight"), Color("mainColorDark")]),
+                                    gradient: Gradient(colors: [Color("mainColorLight"), Color("mainColorDark")]),
                                     startPoint: .topLeading,
                                     endPoint: .bottomTrailing
                                 )

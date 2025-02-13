@@ -162,6 +162,64 @@
             endingLineNumber = "18"
             landmarkName = "saveRecord(title:userId:selectedDate:price:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "811F2B1D-A6F8-45F9-BC4C-0AAEE3239E33 - 79eab80dd617c880"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for NoName.AddPageViewModel.saveRecord(title: Swift.String, userId: Swift.String, selectedDate: Foundation.Date, price: Swift.Int) async -&gt; ()"
+                  moduleName = "NoName.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nakajimatakami/mealAiApp/NoName/Domain/Add/AddPageViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18">
+               </Location>
+               <Location
+                  uuid = "811F2B1D-A6F8-45F9-BC4C-0AAEE3239E33 - b74cb128aa645382"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for NoName.AddPageViewModel.saveRecord(title: Swift.String, userId: Swift.String, selectedDate: Foundation.Date, price: Swift.Int) async -&gt; ()"
+                  moduleName = "NoName.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nakajimatakami/mealAiApp/NoName/Domain/Add/AddPageViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18">
+               </Location>
+               <Location
+                  uuid = "811F2B1D-A6F8-45F9-BC4C-0AAEE3239E33 - 10c325cc60c08c86"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for NoName.AddPageViewModel.saveRecord(title: Swift.String, userId: Swift.String, selectedDate: Foundation.Date, price: Swift.Int) async -&gt; ()"
+                  moduleName = "NoName.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nakajimatakami/mealAiApp/NoName/Domain/Add/AddPageViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18">
+               </Location>
+               <Location
+                  uuid = "811F2B1D-A6F8-45F9-BC4C-0AAEE3239E33 - 2434531347d9ee87"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for NoName.AddPageViewModel.saveRecord(title: Swift.String, userId: Swift.String, selectedDate: Foundation.Date, price: Swift.Int) async -&gt; ()"
+                  moduleName = "NoName.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nakajimatakami/mealAiApp/NoName/Domain/Add/AddPageViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -178,6 +236,50 @@
             endingLineNumber = "9"
             landmarkName = "createRecord(record:userId:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "00C5CAB7-D138-434F-99B4-1BE275C7B796 - df1de7e523dcadb3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for NoName.RecordRepository.createRecord(record: NoName.Record, userId: Swift.String) async throws -&gt; ()"
+                  moduleName = "NoName.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nakajimatakami/mealAiApp/NoName/Infrastracture/Repository/RecordRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "9"
+                  endingLineNumber = "9">
+               </Location>
+               <Location
+                  uuid = "00C5CAB7-D138-434F-99B4-1BE275C7B796 - 210222a39502c7c6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for NoName.RecordRepository.createRecord(record: NoName.Record, userId: Swift.String) async throws -&gt; ()"
+                  moduleName = "NoName.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nakajimatakami/mealAiApp/NoName/Infrastracture/Repository/RecordRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "9"
+                  endingLineNumber = "9">
+               </Location>
+               <Location
+                  uuid = "00C5CAB7-D138-434F-99B4-1BE275C7B796 - a710b02b19b7ce8f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for NoName.RecordRepository.createRecord(record: NoName.Record, userId: Swift.String) async throws -&gt; ()"
+                  moduleName = "NoName.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nakajimatakami/mealAiApp/NoName/Infrastracture/Repository/RecordRepository.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -258,6 +360,36 @@
             endingLineNumber = "31"
             landmarkName = "fetchCalendarItems(daysInMonth:userId:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3C593DC0-0959-4F42-8585-E86A81755F4C - 565ab53afa98c712"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for NoName.CalendarPageViewModel.fetchCalendarItems(daysInMonth: Swift.Array&lt;Foundation.Date&gt;, userId: Swift.String) async -&gt; Swift.Array&lt;NoName.CalendarItem&gt;"
+                  moduleName = "NoName.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nakajimatakami/mealAiApp/NoName/Domain/Calendar/CalendarPageViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31">
+               </Location>
+               <Location
+                  uuid = "3C593DC0-0959-4F42-8585-E86A81755F4C - 1cce41ebbf56331c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for NoName.CalendarPageViewModel.fetchCalendarItems(daysInMonth: Swift.Array&lt;Foundation.Date&gt;, userId: Swift.String) async -&gt; Swift.Array&lt;NoName.CalendarItem&gt;"
+                  moduleName = "NoName.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nakajimatakami/mealAiApp/NoName/Domain/Calendar/CalendarPageViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -274,6 +406,64 @@
             endingLineNumber = "33"
             landmarkName = "fetchCalendarItems(daysInMonth:userId:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A5D9AF79-B438-4514-9D51-29ED05CDDBBF - 565ab53afa98c6dc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for NoName.CalendarPageViewModel.fetchCalendarItems(daysInMonth: Swift.Array&lt;Foundation.Date&gt;, userId: Swift.String) async -&gt; Swift.Array&lt;NoName.CalendarItem&gt;"
+                  moduleName = "NoName.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nakajimatakami/mealAiApp/NoName/Domain/Calendar/CalendarPageViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33">
+               </Location>
+               <Location
+                  uuid = "A5D9AF79-B438-4514-9D51-29ED05CDDBBF - 3ac12708d34a6773"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for NoName.CalendarPageViewModel.fetchCalendarItems(daysInMonth: Swift.Array&lt;Foundation.Date&gt;, userId: Swift.String) async -&gt; Swift.Array&lt;NoName.CalendarItem&gt;"
+                  moduleName = "NoName.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nakajimatakami/mealAiApp/NoName/Domain/Calendar/CalendarPageViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33">
+               </Location>
+               <Location
+                  uuid = "A5D9AF79-B438-4514-9D51-29ED05CDDBBF - 1cce41ebbf5632d2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for NoName.CalendarPageViewModel.fetchCalendarItems(daysInMonth: Swift.Array&lt;Foundation.Date&gt;, userId: Swift.String) async -&gt; Swift.Array&lt;NoName.CalendarItem&gt;"
+                  moduleName = "NoName.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nakajimatakami/mealAiApp/NoName/Domain/Calendar/CalendarPageViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33">
+               </Location>
+               <Location
+                  uuid = "A5D9AF79-B438-4514-9D51-29ED05CDDBBF - a7b9d633deb758cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for NoName.CalendarPageViewModel.fetchCalendarItems(daysInMonth: Swift.Array&lt;Foundation.Date&gt;, userId: Swift.String) async -&gt; Swift.Array&lt;NoName.CalendarItem&gt;"
+                  moduleName = "NoName.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nakajimatakami/mealAiApp/NoName/Domain/Calendar/CalendarPageViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
